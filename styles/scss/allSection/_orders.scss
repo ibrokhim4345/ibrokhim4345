@@ -1,0 +1,48 @@
+.orders{
+    width: 100vw;
+    height: 543px;
+    background-color: $pixer_btn_colors;
+    &_h6{
+        text-align: center;
+        font-size: $pixer_cards_title_words_size;
+        font-weight: $pixer_title_weight;
+        padding: 56px 0 0 0;
+        color: $pixer_title_color;
+        margin: 0;
+    }
+    &_p{
+        color: $pixer_title_color;
+        text-align: center;
+        width: 719px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    &_input{
+        width: 300px;
+        height: 256px;
+        border-radius: 5px;
+        background-color: $pixer_title_color;
+        margin: 24px auto 0;
+        &_form{
+            padding: 12px;
+            text-align: center;
+            &_inp{
+                width: 220px;
+                border-radius: 5px;
+                padding: 16px;
+                margin: 8px 0;
+                border: none;
+                background-color: $pixer_input_colors;
+            }
+        }
+        &_btn{
+            padding: 8px 16px;
+            display: flex;
+            margin: 0 auto;
+            background-color: $pixer_btn_colors;
+            color: $pixer_title_color;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.footer{
+    width: 100vw;
+    height: 338px;
+    background-color: black;
+    &_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 56px;
+        &_card{
+            &_h6{
+                color: $pixer_title_color;
+                font-weight: $pixer_title_weight;
+                font-size: $pixer_cards_words_size;
+                margin: 0;
+            }
+            &_p{
+                color: $pixer_title_color;
+                width: 320px;
+            }
+            & i{
+                padding: 0 8px 0 0;
+            }
+        }
+    }
+}

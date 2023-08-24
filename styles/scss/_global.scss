@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

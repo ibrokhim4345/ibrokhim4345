@@ -1,0 +1,42 @@
+.servises{
+    width: 100vw;
+    height: 767px;
+    &_h5{
+        font-size: $pixer_title_words_size;
+        font-weight: $pixer_title_weight;
+        text-align: center;
+        padding: 30px 0 0;
+    }
+    &_p{
+        width: 719px;
+        font-size: $pixer_title_words_size;
+        font-weight: $pixer_title_words_weight;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &_card{
+            text-align: center;
+            width: 324px;
+            padding: 10px 0;
+            box-shadow: 2px 2px 2px 2px #4444;
+            margin-top: 24px;
+            border-radius: 5px;
+        }
+        
+    }
+    &_items{
+        text-align: center;
+        padding: 46px;
+        &_btn{
+            border-radius: 5px;
+            background-color: $pixer_btn_colors;
+            color: $pixer_title_color;
+            padding: 8px 16px;
+            border: none;
+        }
+    }
+}
